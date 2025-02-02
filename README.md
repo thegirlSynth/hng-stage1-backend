@@ -84,9 +84,9 @@ The API will be available at `http://127.0.0.1:8000/api/classify-number`.
 To test the API, you can:
 - Use **Postman** or **cURL**:
   ```sh
-  curl -X GET "http://your-deployed-url/api/classify-number?number=371" -H "accept: application/json"
+  curl -X GET "https://hng-stage1-backend.vercel.app/api/classify-number?number=371" -H "accept: application/json"
   ```
-- Open in a browser: `http://your-deployed-url/api/classify-number?number=371`
+- Open in a browser: `https://hng-stage1-backend.vercel.app/api/classify-number?number=371`
 
 ## Contributing
 Contributions are welcome! To contribute:
